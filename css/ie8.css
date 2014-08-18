@@ -1,0 +1,19 @@
+#usage div.bubble > div#integrate {
+  background: url(../img/icon-integrate-ie8.png) no-repeat center center;
+  background-color: none;
+}
+#usage div.bubble > div#predict {
+  background: url(../img/icon-predict-ie8.png) no-repeat center center;
+  background-color: none;
+}
+#usage div.bubble > div#analyze {
+  background: url(../img/icon-analyze-ie8.png) no-repeat center center;
+  background-color: none;
+}
+#usage div.bubble > div#mitigate {
+  background: url(../img/icon-mitigate-ie8.png) no-repeat center center;
+  background-color: none;
+}
+#contactus select {
+  background: #fff;
+}
