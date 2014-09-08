@@ -395,14 +395,14 @@ border-bottom: 26px solid white;
 #description > div.descriptionContainer > div.oneColumn, #featuredescription > div.descriptionContainer > div.oneColumn {
   width: 100%;
 }
-#features {
+.featuredList {
   //padding: 54px 60px 20px 43px;
   //overflow: auto;
 }
-#features > ul {
+.featuredList > ul {
   margin: 27px 0 0px 27px;
 }
-#features > ul > li {
+.featuredList > ul > li {
   float: left;
   margin: 0 15px 15px 0;
   padding-left: 28px;
@@ -411,21 +411,21 @@ border-bottom: 26px solid white;
   font-size: 1.1666666666666667em;
   background: url(../img/feature-checkmark.png) 0 0 no-repeat;
 }
-#features > div.twoColumn {
+.featuredList > div.twoColumn {
   float: left;
   width: 50%;
   padding-top: 10px;
   font-size: 1.1666666666666667em;
 }
-#features > div.left {
+.featuredList > div.left {
   padding-left: 26px;
 }
-#features .sysRequirements {
+.featuredList .sysRequirements {
   margin-top: 30px;
   color: #888888;
-  font-size: 0.9em;
+  font-size: 0.9em !important;
 }
-#features .sysRequirements b {
+.featuredList .sysRequirements b {
   line-height: 1.7em;
 }
 #resources {
