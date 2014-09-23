@@ -92,7 +92,7 @@ body {
   cursor: pointer; }
 
 #banner {
-  background: #97ddf7 url(../img/eds_blue-background.png) repeat-x center top;
+  background: #97ddf7 url(../img/blue-background.png) repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
   border-bottom: 1px solid #263640; }
@@ -238,6 +238,7 @@ border-bottom: 26px solid white;
   #usage div.usageItems, #usage div.featureusageitems, #featureusage div.usageItems, #featureusage div.featureusageitems {
     height: 150px; }
   #usage div.bubble, #usage div.featurebubble, #featureusage div.bubble, #featureusage div.featurebubble {
+<<<<<<< HEAD
     width: 25%;
     height: 100%;
     float: left;
@@ -246,6 +247,18 @@ border-bottom: 26px solid white;
     font-family: 'rokkittregular';
     font-weight: bold;
     font-size: 1.3em; }
+=======
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+	margin-right:16px;
+    cursor: pointer;
+    font-family: 'rokkittregular';
+    font-weight: bold;
+    font-size: 1.1em;}
+	
+>>>>>>> FETCH_HEAD
   #usage div.bubble > div.bubbleimg, #usage div.featurebubble > div.featurebubbleimg, #featureusage div.bubble > div.bubbleimg, #featureusage div.featurebubble > div.featurebubbleimg {
     width: 60px;
     height: 60px;
@@ -255,6 +268,7 @@ border-bottom: 26px solid white;
     margin: 15px auto; }
   #usage div.bubble > div.bubbleimg > img, #usage div.featurebubble > div.featurebubbleimg > img, #featureusage div.bubble > div.bubbleimg > img, #featureusage div.featurebubble > div.featurebubbleimg > img {
     margin: auto; }
+<<<<<<< HEAD
   #usage div.bubble > div#integrate, #usage div.featurebubble > div#integrate, #featureusage div.bubble > div#integrate, #featureusage div.featurebubble > div#integrate {
     background: #5c7f92 no-repeat center center; }
   #usage div.bubble > div#predict, #usage div.featurebubble > div#predict, #featureusage div.bubble > div#predict, #featureusage div.featurebubble > div#predict {
@@ -263,6 +277,20 @@ border-bottom: 26px solid white;
     background: #fecb00 no-repeat left center; }
   #usage div.bubble > div#mitigate, #usage div.featurebubble > div#mitigate, #featureusage div.bubble > div#mitigate, #featureusage div.featurebubble > div#mitigate {
     background: #c7b37f no-repeat center center; }
+=======
+  #usage div.bubble > div#foundations, #usage div.featurebubble > div#foundations, #featureusage div.bubble > div#foundations, #featureusage div.featurebubble > div#foundations {
+    background: #5c7f92 no-repeat center center; }
+  #usage div.bubble > div#describe, #usage div.featurebubble > div#describe, #featureusage div.bubble > div#describe, #featureusage div.featurebubble > div#describe {
+    background: #91baa3 no-repeat center center; }
+  #usage div.bubble > div#discover, #usage div.featurebubble > div#discover, #featureusage div.bubble > div#discover, #featureusage div.featurebubble > div#discover {
+    background: #fecb00 no-repeat left center; }
+  #usage div.bubble > div#predict, #usage div.featurebubble > div#predict, #featureusage div.bubble > div#predict, #featureusage div.featurebubble > div#predict {
+    background: #c7b37f no-repeat center center; }
+	#usage div.bubble > div#advise, #usage div.featurebubble > div#advise, #featureusage div.bubble > div#advise, #featureusage div.featurebubble > div#advise {
+    background: #8f7fc7 no-repeat center center; }
+	#usage div.bubble > div#scale, #usage div.featurebubble > div#scale, #featureusage div.bubble > div#scale, #featureusage div.featurebubble > div#scale {
+    background: #fdb263 no-repeat center center; }
+>>>>>>> FETCH_HEAD
   #usage div.bubble > p, #usage div.featurebubble > p, #featureusage div.bubble > p, #featureusage div.featurebubble > p {
     text-align: center;
     font-weight: bold;
@@ -282,6 +310,7 @@ border-bottom: 26px solid white;
   background-position: 158px top;
   border-left-color: #5c7f92; }
 
+<<<<<<< HEAD
 #arrow.predict, #featurearrow.predict {
   background-position: 368px top;
   border-left-color: #91baa3; }
@@ -291,6 +320,17 @@ border-bottom: 26px solid white;
   border-left-color: #fecb00; }
 
 #arrow.mitigate, #featurearrow.mitigate {
+=======
+#arrow.describe, #featurearrow.describe {
+  background-position: 368px top;
+  border-left-color: #91baa3; }
+
+#arrow.discover, #featurearrow.discover {
+  background-position: 578px top;
+  border-left-color: #fecb00; }
+
+#arrow.predict, #featurearrow.predict {
+>>>>>>> FETCH_HEAD
   background-position: 788px top;
   border-left-color: #c7b37f; }
 
@@ -311,6 +351,7 @@ border-bottom: 26px solid white;
 #description p, #description h2 {
   color: #FFFFFF; }
 
+<<<<<<< HEAD
 #description.integrate, #featuredescription.integrate {
   border-left-color: #5c7f92; }
 
@@ -321,6 +362,18 @@ border-bottom: 26px solid white;
   border-left-color: #fecb00; }
 
 #description.mitigate, #featuredescription.mitigate {
+=======
+#description.foundations, #featuredescription.foundations {
+  border-left-color: #5c7f92; }
+
+#description.describe, #featuredescription.describe {
+  border-left-color: #91baa3; }
+
+#description.discover, #featuredescription.discover {
+  border-left-color: #fecb00; }
+
+#description.predict, #featuredescription.predict {
+>>>>>>> FETCH_HEAD
   border-left-color: #c7b37f; }
 
 #description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p {
