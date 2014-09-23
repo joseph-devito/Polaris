@@ -4,7 +4,6 @@
   src: url("../fonts/rokkitt-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/rokkitt-regular-webfont.woff") format("woff"), url("../fonts/rokkitt-regular-webfont.ttf") format("truetype"), url("../fonts/rokkitt-regular-webfont.svg#rokkittregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .lines {
   color: #FFF;
   display: block;
@@ -93,7 +92,7 @@ body {
   cursor: pointer; }
 
 #banner {
-  background: #97ddf7 url(../img/eds_blue-background.png) repeat-x center top;
+  background: #97ddf7 url(../img/blue-background.png) repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
   border-bottom: 1px solid #263640; }
@@ -106,7 +105,7 @@ body {
 
 #banner > .bannerContent#left {
   padding: 23px 20px 8px 26px;
-  background: url(../img/eds_box-corner.png) no-repeat;
+  background: url(../img/box-corner.png) no-repeat;
   height: 340px; }
   #banner > .bannerContent#left p {
     line-height: 1.4em;
@@ -225,64 +224,56 @@ border-bottom: 26px solid white;
   display: none;
   text-align: center; }
 
-#usage {
+#usage, #featureusage {
   background: url(../img/white-process-background.png) repeat-x center -2em;
+  height: 315px;
   padding: 0px 0px 0px 0px;
   overflow: auto;
   border-top: 1px solid #4d4d4d; }
-
-#usage > h2 {
-  text-align: center; }
-
-#usage > p {
-  text-align: center;
-  margin: 0 auto; }
-
-#usage div.usageItems {
-  height: 150px; }
-
-#usage div.bubble {
-  width: 25%;
-  height: 100%;
-  float: left;
-  margin-top: 5px;
-  cursor: pointer;
-  font-family: 'rokkittregular';
-  font-weight: bold;
-  font-size: 1.3em; }
-
-#usage div.bubble > div.bubbleimg {
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  margin: 15px auto; }
-
-#usage div.bubble > div.bubbleimg > img {
-  margin: auto; }
-
-#usage div.bubble > div#integrate {
-  background: #5c7f92 url(../img/icon-integrate.png) no-repeat center center;
-  display: none; }
-
-#usage div.bubble > div#predict {
-  background: #91baa3 url(../img/icon-predict.png) no-repeat center center;
-  display: none; }
-
-#usage div.bubble > div#analyze {
-  background: #fecb00 url(../img/icon-analyze.png) no-repeat left center;
-  display: none; }
-
-#usage div.bubble > div#mitigate {
-  background: #c7b37f url(../img/icon-mitigate.png) no-repeat center center;
-  display: none; }
-
-#usage div.bubble > p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 2em;
-  margin-top: 51px; }
+  #usage > h2, #featureusage > h2 {
+    text-align: center; }
+  #usage > p, #featureusage > p {
+    text-align: center;
+    margin: 0 auto; }
+  #usage div.usageItems, #usage div.featureusageitems, #featureusage div.usageItems, #featureusage div.featureusageitems {
+    height: 150px; }
+  #usage div.bubble, #usage div.featurebubble, #featureusage div.bubble, #featureusage div.featurebubble {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+	margin-right:16px;
+    cursor: pointer;
+    font-family: 'rokkittregular';
+    font-weight: bold;
+    font-size: 1.1em;}
+	
+  #usage div.bubble > div.bubbleimg, #usage div.featurebubble > div.featurebubbleimg, #featureusage div.bubble > div.bubbleimg, #featureusage div.featurebubble > div.featurebubbleimg {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin: 15px auto; }
+  #usage div.bubble > div.bubbleimg > img, #usage div.featurebubble > div.featurebubbleimg > img, #featureusage div.bubble > div.bubbleimg > img, #featureusage div.featurebubble > div.featurebubbleimg > img {
+    margin: auto; }
+  #usage div.bubble > div#foundations, #usage div.featurebubble > div#foundations, #featureusage div.bubble > div#foundations, #featureusage div.featurebubble > div#foundations {
+    background: #5c7f92 no-repeat center center; }
+  #usage div.bubble > div#describe, #usage div.featurebubble > div#describe, #featureusage div.bubble > div#describe, #featureusage div.featurebubble > div#describe {
+    background: #91baa3 no-repeat center center; }
+  #usage div.bubble > div#discover, #usage div.featurebubble > div#discover, #featureusage div.bubble > div#discover, #featureusage div.featurebubble > div#discover {
+    background: #fecb00 no-repeat left center; }
+  #usage div.bubble > div#predict, #usage div.featurebubble > div#predict, #featureusage div.bubble > div#predict, #featureusage div.featurebubble > div#predict {
+    background: #c7b37f no-repeat center center; }
+	#usage div.bubble > div#advise, #usage div.featurebubble > div#advise, #featureusage div.bubble > div#advise, #featureusage div.featurebubble > div#advise {
+    background: #8f7fc7 no-repeat center center; }
+	#usage div.bubble > div#scale, #usage div.featurebubble > div#scale, #featureusage div.bubble > div#scale, #featureusage div.featurebubble > div#scale {
+    background: #fdb263 no-repeat center center; }
+  #usage div.bubble > p, #usage div.featurebubble > p, #featureusage div.bubble > p, #featureusage div.featurebubble > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 51px; }
 
 #arrow {
   /*height: 33px;
@@ -293,23 +284,23 @@ border-bottom: 26px solid white;
   -o-transition: 300ms ease-out;
   transition: 300ms ease-out;*/ }
 
-#arrow.integrate {
+#arrow.integrate, #featurearrow.integrate {
   background-position: 158px top;
   border-left-color: #5c7f92; }
 
-#arrow.predict {
+#arrow.describe, #featurearrow.describe {
   background-position: 368px top;
   border-left-color: #91baa3; }
 
-#arrow.analyze {
+#arrow.discover, #featurearrow.discover {
   background-position: 578px top;
   border-left-color: #fecb00; }
 
-#arrow.mitigate {
+#arrow.predict, #featurearrow.predict {
   background-position: 788px top;
   border-left-color: #c7b37f; }
 
-#description {
+#description, #featuredescription {
   background-color: #60879f;
   color: #FFFFFF;
   padding: 10px 60px 30px 53px;
@@ -320,50 +311,49 @@ border-bottom: 26px solid white;
   -o-transition: border-color 300ms ease-out;
   transition: border-color 300ms ease-out; }
 
+#featuredescription {
+  background: #FFFFFF; }
+
 #description p, #description h2 {
   color: #FFFFFF; }
 
-#description.integrate {
+#description.foundations, #featuredescription.foundations {
   border-left-color: #5c7f92; }
 
-#description.predict {
+#description.describe, #featuredescription.describe {
   border-left-color: #91baa3; }
 
-#description.analyze {
+#description.discover, #featuredescription.discover {
   border-left-color: #fecb00; }
 
-#description.mitigate {
+#description.predict, #featuredescription.predict {
   border-left-color: #c7b37f; }
 
-#description > div.descriptionContainer > p {
+#description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p {
   margin-bottom: 17px; }
 
-#description > div.descriptionContainer > div {
+#description > div.descriptionContainer > div, #featuredescription > div.descriptionContainer > div {
   width: 33%;
   float: left;
   padding: 0 15px; }
 
-#description > div.descriptionContainer > div > p {
+#description > div.descriptionContainer > div > p, #featuredescription > div.descriptionContainer > div > p {
   font-size: 1.1666666666666667em;
   line-height: 1.4em; }
 
-#description > div.descriptionContainer > div.descriptionLeft {
+#description > div.descriptionContainer > div.descriptionLeft, #featuredescription > div.descriptionContainer > div.descriptionLeft {
   clear: both; }
 
-#description > div.descriptionContainer > div.twoColumn {
+#description > div.descriptionContainer > div.twoColumn, #featuredescription > div.descriptionContainer > div.twoColumn {
   width: 50%; }
 
-#description > div.descriptionContainer > div.oneColumn {
+#description > div.descriptionContainer > div.oneColumn, #featuredescription > div.descriptionContainer > div.oneColumn {
   width: 100%; }
 
-#features {
-  padding: 54px 60px 20px 43px;
-  overflow: auto; }
-
-#features > ul {
+.featuredList > ul {
   margin: 27px 0 0px 27px; }
 
-#features > ul > li {
+.featuredList > ul > li {
   float: left;
   margin: 0 15px 15px 0;
   padding-left: 28px;
@@ -372,21 +362,21 @@ border-bottom: 26px solid white;
   font-size: 1.1666666666666667em;
   background: url(../img/feature-checkmark.png) 0 0 no-repeat; }
 
-#features > div.twoColumn {
+.featuredList > div.twoColumn {
   float: left;
   width: 50%;
   padding-top: 10px;
   font-size: 1.1666666666666667em; }
 
-#features > div.left {
+.featuredList > div.left {
   padding-left: 26px; }
 
-#features .sysRequirements {
+.featuredList .sysRequirements {
   margin-top: 30px;
   color: #888888;
-  font-size: 0.9em; }
+  font-size: 0.9em !important; }
 
-#features .sysRequirements b {
+.featuredList .sysRequirements b {
   line-height: 1.7em; }
 
 #resources {
@@ -459,7 +449,7 @@ border-bottom: 26px solid white;
 
 #contactus .formColumn {
   float: left;
-  width: 420px; }
+  width: 410px; }
 
 #contactus .formColumn > p {
   /* 12px */
@@ -471,7 +461,7 @@ border-bottom: 26px solid white;
   text-align: right; }
 
 #contactus input[type=text] {
-  width: 395px;
+  width: 382px;
   height: 34px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -486,7 +476,7 @@ border-bottom: 26px solid white;
   overflow: hidden;
   width: 405px;
   height: 36px;
-  background: url(../img/select-drop-arrow.png) no-repeat right center white;
+  background: url(../img/select-drop-arrow.png) no-repeat right center #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -558,12 +548,12 @@ border-bottom: 26px solid white;
   display: none; }
 
 .flow-navigation,
-.description-navigation {
+.description-navigation, .featuredescription-navigation {
   float: right;
   margin: 10px 29px 0 10px; }
 
 .flow-navigation .next,
-.description-navigation .next {
+.description-navigation .next, .featuredescription-navigation .next {
   display: inline-block;
   width: 34px;
   height: 40px;
@@ -572,11 +562,11 @@ border-bottom: 26px solid white;
   background: url(../img/arrow-right.png) no-repeat center center; }
 
 .flow-navigation .next:hover,
-.description-navigation .next:hover {
+.description-navigation .next:hover, .featuredescription-navigation .next:hover {
   opacity: 0.3; }
 
 .flow-navigation .previous,
-.description-navigation .previous {
+.description-navigation .previous, .featuredescription-navigation .previous {
   display: inline-block;
   width: 34px;
   height: 40px;
@@ -585,7 +575,7 @@ border-bottom: 26px solid white;
   background: url(../img/arrow-left.png) no-repeat center center; }
 
 .flow-navigation .previous:hover,
-.description-navigation .previous:hover {
+.description-navigation .previous:hover, .featuredescription-navigation .previous:hover {
   opacity: 0.3; }
 
 .simplemodal-overlay,
@@ -605,3 +595,5 @@ border-bottom: 26px solid white;
 
 #ColumnsContainer #Header {
   top: -82px; }
+
+/*# sourceMappingURL=polaris-styles.css.map */

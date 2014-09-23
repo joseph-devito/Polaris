@@ -4,13 +4,13 @@ $bannerBg:'../img/blue-background.png';//swap out this file name with the name o
 $triangleBoxBg:'../img/box-corner.png';//swap out this file name with the name of your new theme file
 $rightGraphic:'../img/cost-risk-schedule.png';//swap out this file name with the name of your new theme file
 $logo:'../img/polaris-logo-white.png';
-$videoImage:'../img/eds_video-thumb.png';
+$videoImage:'../img/video-thumb.png';
 $main-theme-color:#60879f;
 $brandstripe:#006699;
 $secondary-color:#bfd22b;
 
 
-
+ 
 @font-face {
   font-family: 'rokkittregular';
   src: url('../fonts/rokkitt-regular-webfont.eot');
@@ -258,62 +258,67 @@ border-bottom: 26px solid white;
   display: none;
   text-align: center;
 }
-#usage {
+#usage, #featureusage {
   background: url(../img/white-process-background.png) repeat-x center -2em;
+  height:315px;
   padding: 0px 0px 0px 0px;
   overflow: auto;
   border-top:1px solid lighten(#000000, 30%);
 
+   &> h2 {
+    text-align: center;
+  }
+   &> p {
+    text-align: center;
+    margin: 0 auto;
+  }
+   div.usageItems, div.featureusageitems {
+    height: 150px;
+  }
+   div.bubble, div.featurebubble {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: 'rokkittregular';
+    font-weight:bold;
+    font-size:1.3em;
+  }
+  div.bubble > div.bubbleimg, div.featurebubble > div.featurebubbleimg {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin: 15px auto;
+  }
+  div.bubble > div.bubbleimg > img, div.featurebubble > div.featurebubbleimg > img {
+    margin: auto;
+  }
+  div.bubble > div#integrate, div.featurebubble > div#integrate {
+    background: #5c7f92 /*url(../img/icon-integrate.png)*/ no-repeat center center;
+  }
+  div.bubble > div#predict, div.featurebubble > div#predict {
+    background: #91baa3 /*url(../img/icon-predict.png)*/ no-repeat center center;
+  }
+  div.bubble > div#analyze, div.featurebubble > div#analyze {
+    background: #fecb00 /*url(../img/icon-analyze.png)*/ no-repeat left center;
+  }
+  div.bubble > div#mitigate,  div.featurebubble > div#mitigate  {
+    background: #c7b37f /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+  }
+  div.bubble > p, div.featurebubble > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 51px;
+  }
+
 }
-#usage > h2 {
-  text-align: center;
-}
-#usage > p {
-  text-align: center;
-  margin: 0 auto;
-}
-#usage div.usageItems {
-  height: 150px;
-}
-#usage div.bubble {
-  width: 25%;
-  height: 100%;
-  float: left;
-  margin-top: 5px;
-  cursor: pointer;
-  font-family: 'rokkittregular';
-  font-weight:bold;
-  font-size:1.3em;
-}
-#usage div.bubble > div.bubbleimg {
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  margin: 15px auto;
-}
-#usage div.bubble > div.bubbleimg > img {
-  margin: auto;
-}
-#usage div.bubble > div#integrate {
-  background: #5c7f92 url(../img/icon-integrate.png) no-repeat center center;display:none;
-}
-#usage div.bubble > div#predict {
-  background: #91baa3 url(../img/icon-predict.png) no-repeat center center;display:none;
-}
-#usage div.bubble > div#analyze {
-  background: #fecb00 url(../img/icon-analyze.png) no-repeat left center;display:none;
-}
-#usage div.bubble > div#mitigate {
-  background: #c7b37f url(../img/icon-mitigate.png) no-repeat center center; display:none;
-}
-#usage div.bubble > p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 2em;
-  margin-top: 51px;
-}
+
+
+
 #arrow {
   /*height: 33px;
   background: $main-theme-color url(../img/process-marker.png) repeat-x 0 top;
@@ -323,23 +328,23 @@ border-bottom: 26px solid white;
   -o-transition: 300ms ease-out;
   transition: 300ms ease-out;*/
 }
-#arrow.integrate {
+#arrow.integrate, #featurearrow.integrate {
   background-position: 158px top;
   border-left-color: #5c7f92;
 }
-#arrow.predict {
+#arrow.predict, #featurearrow.predict {
   background-position: 368px top;
   border-left-color: #91baa3;
 }
-#arrow.analyze {
+#arrow.analyze, #featurearrow.analyze {
   background-position: 578px top;
   border-left-color: #fecb00;
 }
-#arrow.mitigate {
+#arrow.mitigate, #featurearrow.mitigate {
   background-position: 788px top;
   border-left-color: #c7b37f;
 }
-#description {
+#description, #featuredescription {
   background-color: $main-theme-color;
   color:#FFFFFF;
   padding: 10px 60px 30px 53px;
@@ -350,51 +355,54 @@ border-bottom: 26px solid white;
   -o-transition: border-color 300ms ease-out;
   transition: border-color 300ms ease-out;
 }
+#featuredescription{
+  background:#FFFFFF;
+}
 
 #description p, #description h2{
   color:#FFFFFF;
 }
-#description.integrate {
+#description.integrate, #featuredescription.integrate {
   border-left-color: #5c7f92;
 }
-#description.predict {
+#description.predict, #featuredescription.predict {
   border-left-color: #91baa3;
 }
-#description.analyze {
+#description.analyze, #featuredescription.analyze {
   border-left-color: #fecb00;
 }
-#description.mitigate {
+#description.mitigate, #featuredescription.mitigate {
   border-left-color: #c7b37f;
 }
-#description > div.descriptionContainer > p {
+#description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p{
   margin-bottom: 17px;
 }
-#description > div.descriptionContainer > div {
+#description > div.descriptionContainer > div, #featuredescription > div.descriptionContainer > div {
   width: 33%;
   float: left;
   padding: 0 15px;
 }
-#description > div.descriptionContainer > div > p {
+#description > div.descriptionContainer > div > p, #featuredescription > div.descriptionContainer > div > p {
   font-size: 1.1666666666666667em;
   line-height: 1.4em;
 }
-#description > div.descriptionContainer > div.descriptionLeft {
+#description > div.descriptionContainer > div.descriptionLeft, #featuredescription > div.descriptionContainer > div.descriptionLeft {
   clear: both;
 }
-#description > div.descriptionContainer > div.twoColumn {
+#description > div.descriptionContainer > div.twoColumn, #featuredescription > div.descriptionContainer > div.twoColumn {
   width: 50%;
 }
-#description > div.descriptionContainer > div.oneColumn {
+#description > div.descriptionContainer > div.oneColumn, #featuredescription > div.descriptionContainer > div.oneColumn {
   width: 100%;
 }
-#features {
-  padding: 54px 60px 20px 43px;
-  overflow: auto;
+.featuredList {
+  //padding: 54px 60px 20px 43px;
+  //overflow: auto;
 }
-#features > ul {
+.featuredList > ul {
   margin: 27px 0 0px 27px;
 }
-#features > ul > li {
+.featuredList > ul > li {
   float: left;
   margin: 0 15px 15px 0;
   padding-left: 28px;
@@ -403,21 +411,21 @@ border-bottom: 26px solid white;
   font-size: 1.1666666666666667em;
   background: url(../img/feature-checkmark.png) 0 0 no-repeat;
 }
-#features > div.twoColumn {
+.featuredList > div.twoColumn {
   float: left;
   width: 50%;
   padding-top: 10px;
   font-size: 1.1666666666666667em;
 }
-#features > div.left {
+.featuredList > div.left {
   padding-left: 26px;
 }
-#features .sysRequirements {
+.featuredList .sysRequirements {
   margin-top: 30px;
   color: #888888;
-  font-size: 0.9em;
+  font-size: 0.9em !important;
 }
-#features .sysRequirements b {
+.featuredList .sysRequirements b {
   line-height: 1.7em;
 }
 #resources {
@@ -490,7 +498,7 @@ border-bottom: 26px solid white;
 }
 #contactus .formColumn {
   float: left;
-  width: 420px;
+  width: 410px;
 }
 #contactus .formColumn > p {
   //font-size: 1.1em;
@@ -504,7 +512,7 @@ border-bottom: 26px solid white;
   text-align: right;
 }
 #contactus input[type=text] {
-  width: 395px;
+  width: 382px;
   height: 34px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -591,12 +599,12 @@ border-bottom: 26px solid white;
   display: none;
 }
 .flow-navigation,
-.description-navigation {
+.description-navigation, .featuredescription-navigation  {
   float: right;
   margin: 10px 29px 0 10px;
 }
 .flow-navigation .next,
-.description-navigation .next {
+.description-navigation .next, .featuredescription-navigation .next{
   display: inline-block;
   width: 34px;
   height: 40px;
@@ -605,11 +613,11 @@ border-bottom: 26px solid white;
   background: url(../img/arrow-right.png) no-repeat center center;
 }
 .flow-navigation .next:hover,
-.description-navigation .next:hover {
+.description-navigation .next:hover , .featuredescription-navigation .next:hover {
   opacity: 0.3;
 }
 .flow-navigation .previous,
-.description-navigation .previous {
+.description-navigation .previous , .featuredescription-navigation .previous {
   display: inline-block;
   width: 34px;
   height: 40px;
@@ -618,7 +626,7 @@ border-bottom: 26px solid white;
   background: url(../img/arrow-left.png) no-repeat center center;
 }
 .flow-navigation .previous:hover,
-.description-navigation .previous:hover {
+.description-navigation .previous:hover, .featuredescription-navigation .previous:hover {
   opacity: 0.3;
 }
 .simplemodal-overlay,
