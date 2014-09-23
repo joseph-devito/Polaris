@@ -24,7 +24,7 @@
   position: relative;
   bottom: -30px;
   width: 25%;
-  background: #006699; }
+  background: #00a9f4; }
   .brandStripe:after {
     width: 0;
     position: relative;
@@ -35,11 +35,11 @@
     content: '';
     border-right: 25px solid transparent;
     border-bottom: 51px solid transparent;
-    border-top: 51px solid #006699; }
+    border-top: 51px solid #00a9f4; }
 
 body {
   /*background: #005595 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
-  background: #005595;
+  background: #00a9f4;
   width: 960px;
   margin: 0px auto; }
 
@@ -92,7 +92,7 @@ body {
   cursor: pointer; }
 
 #banner {
-  background: #97ddf7 url(../img/blue-background.png) repeat-x center top;
+  background: #97ddf7 url(../img/eds_blue-background.png) repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
   border-bottom: 1px solid #263640; }
@@ -105,7 +105,7 @@ body {
 
 #banner > .bannerContent#left {
   padding: 23px 20px 8px 26px;
-  background: url(../img/box-corner.png) no-repeat;
+  background: url(../img/eds_box-corner.png) no-repeat;
   height: 340px; }
   #banner > .bannerContent#left p {
     line-height: 1.4em;
@@ -211,7 +211,7 @@ border-bottom: 26px solid white;
 
 #playVideo .videoButtonBackground {
   position: absolute;
-  background: #96a0ac url(../img/video-thumb.png) repeat-x center 0px;
+  background: #96a0ac url(../img/eds_video-thumb.png) repeat-x center 0px;
   height: 400px; }
 
 #playVideo .videoButton > div {
@@ -426,7 +426,7 @@ border-bottom: 26px solid white;
 
 #preview {
   height: 500px;
-  background-color: #bfd22b;
+  background-color: #003c57;
   padding: 54px 0; }
 
 #preview > h2 {
