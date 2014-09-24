@@ -1200,7 +1200,7 @@ border-bottom: 26px solid white;
 
 
 /*--- EDS SPECIFIC STYLES ---*/
-/*  #edsusage div.usageItems, #edsusage div.featureusageitems, #featureusage div.usageItems, #featureusage div.featureusageitems {
+	#edsusage div.usageItems, #edsusage div.featureusageitems, #featureusage div.usageItems, #featureusage div.featureusageitems {
     height: 150px;
 	margin-right:15px; }
   #edsusage div.bubble, #edsusage div.featurebubble, #featureusage div.bubble, #featureusage div.featurebubble {
@@ -1240,4 +1240,3 @@ border-bottom: 26px solid white;
     font-weight: bold;
     font-size: 2em;
     margin-top: 51px; }
-	*/
