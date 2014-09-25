@@ -5,9 +5,15 @@ $triangleBoxBg:'../img/eds_box-corner.png';//swap out this file name with the na
 $rightGraphic:'../img/cost-risk-schedule.png';//swap out this file name with the name of your new theme file
 $logo:'../img/eds_logo_white.png';
 $videoImage:'../img/eds_video-thumb.png';
-$main-theme-color:#08516d;
+$main-theme-color:#626464;
 $brandstripe:#0888b5;
 $secondary-color:#12b1ec;
+$circle1-color:#5c7f92;
+$circle2-color:#031b24;
+$circle3-color:#0d7aa3;
+$circle4-color:#888a8a;
+$circle5-color:#12b1ec;
+$circle6-color:#8f7fc7;
 
 
  
@@ -298,22 +304,22 @@ border-bottom: 26px solid white;
     margin: auto;
   }
   div.bubble > div#foundations, div.featurebubble > div#foundations {
-    background: #5c7f92 /*url(../img/icon-integrate.png)*/ no-repeat center center;
+    background: $circle1-color /*url(../img/icon-integrate.png)*/ no-repeat center center;
   }
   div.bubble > div#describe, div.featurebubble > div#describe {
-    background: #031b24 /*url(../img/icon-predict.png)*/ no-repeat center center;
+    background: $circle2-color /*url(../img/icon-predict.png)*/ no-repeat center center;
   }
   div.bubble > div#discover, div.featurebubble > div#discover {
-    background: #0d7aa3 /*url(../img/icon-analyze.png)*/ no-repeat left center;
+    background: $circle3-color /*url(../img/icon-analyze.png)*/ no-repeat left center;
   }
   div.bubble > div#predict,  div.featurebubble > div#predict  {
-    background: #888a8a /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: $circle4-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#advise,  div.featurebubble > div#advise  {
-    background: #12b1ec /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: $circle5-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#scale,  div.featurebubble > div#scale  {
-    background: #8f7fc7 /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: $circle6-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > p, div.featurebubble > p {
     text-align: center;
@@ -336,19 +342,19 @@ border-bottom: 26px solid white;
 }
 #arrow.integrate, #featurearrow.integrate {
   background-position: 158px top;
-  border-left-color: #5c7f92;
+  border-left-color: $circle1-color;
 }
 #arrow.predict, #featurearrow.predict {
   background-position: 368px top;
-  border-left-color: #031b24;
+  border-left-color: $circle2-color;
 }
 #arrow.analyze, #featurearrow.analyze {
   background-position: 578px top;
-  border-left-color: #0d7aa3;
+  border-left-color: $circle3-color;
 }
 #arrow.mitigate, #featurearrow.mitigate {
   background-position: 788px top;
-  border-left-color: #888a8a;
+  border-left-color: $circle4-color;
 }
 #description, #featuredescription {
   background-color: $main-theme-color;
@@ -369,16 +375,16 @@ border-bottom: 26px solid white;
   color:#FFFFFF;
 }
 #description.integrate, #featuredescription.integrate {
-  border-left-color: #5c7f92;
+  border-left-color: $circle1-color;
 }
 #description.predict, #featuredescription.predict {
-  border-left-color: #031b24;
+  border-left-color: $circle2-color;
 }
 #description.analyze, #featuredescription.analyze {
-  border-left-color: #0d7aa3;
+  border-left-color: $circle3-color;
 }
 #description.mitigate, #featuredescription.mitigate {
-  border-left-color: #888a8a;
+  border-left-color: $circle4-color;
 }
 #description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p{
   margin-bottom: 17px;
