@@ -17,3 +17,12 @@
 #contactus select {
   background: #fff;
 }
+.flow-navigation .next:hover,
+.description-navigation .next:hover , .featuredescription-navigation .next:hover {
+    background: url(../img/arrow-right.png) no-repeat center center #CCCCCC;
+}
+
+.flow-navigation .previous:hover,
+.description-navigation .previous:hover, .featuredescription-navigation .previous:hover {
+    background: url(../img/arrow-left.png) no-repeat center center #CCCCCC;
+}

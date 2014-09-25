@@ -60,8 +60,9 @@
 			e.preventDefault();
 		});
 		$el.find('.flow-title').css({
-			'line-height': this.titleHeight + 'px',
-			'height': this.titleHeight
+			//'line-height': this.titleHeight + 'px',
+			'height': this.titleHeight * 2,
+			'white-space':'pre-wrap',
 		});
 		this.images = this.items.find('img').css({
 			height: this.imageHeight,
