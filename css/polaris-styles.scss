@@ -8,6 +8,13 @@ $videoImage:'../img/video-thumb.png';
 $main-theme-color:#60879f;
 $brandstripe:#006699;
 $secondary-color:#bfd22b;
+$circle1-color:#5c7f92;
+$circle2-color:#91baa3;
+$circle3-color:#fecb00;
+$circle4-color:#c7b37f;
+$circle5-color:#bfd22b;
+$circle6-color:#24b7ee;
+
 
 
 
@@ -300,22 +307,22 @@ border-bottom: 26px solid white;
     margin: auto;
   }
   div.bubble > div#integrate, div.featurebubble > div#integrate {
-    background: #5c7f92 /*url(../img/icon-integrate.png)*/ no-repeat center center;
+    background: $circle1-color /*url(../img/icon-integrate.png)*/ no-repeat center center;
   }
   div.bubble > div#predict, div.featurebubble > div#predict {
-    background: #91baa3 /*url(../img/icon-predict.png)*/ no-repeat center center;
+    background: $circle2-color /*url(../img/icon-predict.png)*/ no-repeat center center;
   }
   div.bubble > div#analyze, div.featurebubble > div#analyze {
-    background: #fecb00 /*url(../img/icon-analyze.png)*/ no-repeat left center;
+    background: $circle3-color /*url(../img/icon-analyze.png)*/ no-repeat left center;
   }
   div.bubble > div#mitigate,  div.featurebubble > div#mitigate  {
-    background: #c7b37f /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: $circle4-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#highlight5,div.featurebubble > div#highlight5{
-    background: #bfd22b no-repeat center center; }
+    background: $circle5-color no-repeat center center; }
 
   div.bubble > div#highlight6, div.featurebubble > div#highlight6{
-    background: #24b7ee no-repeat center center; }
+    background: $circle6-color no-repeat center center; }
 
   div.bubble > p, div.featurebubble > p {
     text-align: center;
@@ -361,27 +368,27 @@ border-bottom: 26px solid white;
 }
 #arrow.integrate, #featurearrow.integrate {
   background-position: 158px top;
-  border-left-color: #5c7f92;
+  border-left-color: $circle1-color;
 }
 #arrow.predict, #featurearrow.predict {
   background-position: 368px top;
-  border-left-color: #91baa3;
+  border-left-color: $circle2-color;
 }
 #arrow.analyze, #featurearrow.analyze {
   background-position: 578px top;
-  border-left-color: #fecb00;
+  border-left-color: $circle3-color;
 }
 #arrow.mitigate, #featurearrow.mitigate {
   background-position: 788px top;
-  border-left-color: #c7b37f;
+  border-left-color: $circle4-color;
 }
 #arrow.highlight5, #featurearrow.highlight5 {
   background-position: 788px top;
-  border-left-color: #bfd22b; }
+  border-left-color: $circle5-color; }
 
 #arrow.highlight6, #featurearrow.highlight6 {
   background-position: 788px top;
-  border-left-color: #24b7ee; }
+  border-left-color: $circle6-color; }
 
 #description, #featuredescription {
   background-color: $main-theme-color;
@@ -403,16 +410,16 @@ border-bottom: 26px solid white;
   color:#FFFFFF;
 }
 #description.integrate, #featuredescription.integrate {
-  border-left-color: #5c7f92;
+  border-left-color: $circle1-color;
 }
 #description.predict, #featuredescription.predict {
-  border-left-color: #91baa3;
+  border-left-color: $circle2-color;
 }
 #description.analyze, #featuredescription.analyze {
-  border-left-color: #fecb00;
+  border-left-color: $circle3-color;
 }
 #description.mitigate, #featuredescription.mitigate {
-  border-left-color: #c7b37f;
+  border-left-color: $circle4-color;
 }
 #description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p{
   margin-bottom: 17px;
@@ -509,7 +516,7 @@ border-bottom: 26px solid white;
   text-align: center;
 }
 #resources .item .title {
-  color: #24b7ee;
+  color: $circle6-color;
   line-height: 2em;
 }
 #resources .item .caption {
