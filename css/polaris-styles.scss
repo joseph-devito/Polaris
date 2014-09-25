@@ -5,9 +5,9 @@ $triangleBoxBg:'../img/eds_box-corner.png';//swap out this file name with the na
 $rightGraphic:'../img/cost-risk-schedule.png';//swap out this file name with the name of your new theme file
 $logo:'../img/eds_logo_white.png';
 $videoImage:'../img/eds_video-thumb.png';
-$main-theme-color:#60879f;
-$brandstripe:#006699;
-$secondary-color:#bfd22b;
+$main-theme-color:#08516d;
+$brandstripe:#0888b5;
+$secondary-color:#12b1ec;
 
 
  
@@ -58,8 +58,8 @@ $secondary-color:#bfd22b;
 }
 
 body {
-  /*background: #005595 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
-  background:#005595;
+  /*background: #0e88b5 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
+  background:#0e88b5;
   width: 960px;
   margin: 0px auto;
 }
@@ -88,7 +88,7 @@ body {
 }
 #contentBody h2,
 .simplemodal-wrap h2 {
-  color: #004271;
+  color: #08516d;
   margin-bottom: 6px;
   font-size: 3em;
   font-family: 'rokkittregular', serif;
@@ -260,7 +260,7 @@ border-bottom: 26px solid white;
 }
 #usage, #featureusage {
   background: url(../img/white-process-background.png) repeat-x center -2em;
-  height:315px;
+  height:320px;
   padding: 0px 0px 0px 0px;
   overflow: auto;
   border-top:1px solid lighten(#000000, 30%);
@@ -301,16 +301,16 @@ border-bottom: 26px solid white;
     background: #5c7f92 /*url(../img/icon-integrate.png)*/ no-repeat center center;
   }
   div.bubble > div#describe, div.featurebubble > div#describe {
-    background: #91baa3 /*url(../img/icon-predict.png)*/ no-repeat center center;
+    background: #031b24 /*url(../img/icon-predict.png)*/ no-repeat center center;
   }
   div.bubble > div#discover, div.featurebubble > div#discover {
-    background: #fecb00 /*url(../img/icon-analyze.png)*/ no-repeat left center;
+    background: #0d7aa3 /*url(../img/icon-analyze.png)*/ no-repeat left center;
   }
   div.bubble > div#predict,  div.featurebubble > div#predict  {
-    background: #c7b37f /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: #888a8a /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#advise,  div.featurebubble > div#advise  {
-    background: #fdb263 /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+    background: #12b1ec /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#scale,  div.featurebubble > div#scale  {
     background: #8f7fc7 /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
@@ -319,11 +319,10 @@ border-bottom: 26px solid white;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    margin-top: 51px;
+    margin-top: 20px;
   }
 
 }
-
 
 
 #arrow {
@@ -341,15 +340,15 @@ border-bottom: 26px solid white;
 }
 #arrow.predict, #featurearrow.predict {
   background-position: 368px top;
-  border-left-color: #91baa3;
+  border-left-color: #031b24;
 }
 #arrow.analyze, #featurearrow.analyze {
   background-position: 578px top;
-  border-left-color: #fecb00;
+  border-left-color: #0d7aa3;
 }
 #arrow.mitigate, #featurearrow.mitigate {
   background-position: 788px top;
-  border-left-color: #c7b37f;
+  border-left-color: #888a8a;
 }
 #description, #featuredescription {
   background-color: $main-theme-color;
@@ -373,13 +372,13 @@ border-bottom: 26px solid white;
   border-left-color: #5c7f92;
 }
 #description.predict, #featuredescription.predict {
-  border-left-color: #91baa3;
+  border-left-color: #031b24;
 }
 #description.analyze, #featuredescription.analyze {
-  border-left-color: #fecb00;
+  border-left-color: #0d7aa3;
 }
 #description.mitigate, #featuredescription.mitigate {
-  border-left-color: #c7b37f;
+  border-left-color: #888a8a;
 }
 #description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p{
   margin-bottom: 17px;
@@ -416,7 +415,7 @@ border-bottom: 26px solid white;
   width: 340px;
   color: #3A3A3A;
   font-size: 1.1666666666666667em;
-  background: url(../img/feature-checkmark.png) 0 0 no-repeat;
+  background: url(../img/eds_feature-checkmark.png) 0 0 no-repeat;
 }
 .featuredList > div.twoColumn {
   float: left;
@@ -498,7 +497,7 @@ border-bottom: 26px solid white;
   padding: 60px;
 }
 #contactus h2 {
-  color: #004271;
+  color: #ffffff;
 }
 #contactus p {
   color: #fff;

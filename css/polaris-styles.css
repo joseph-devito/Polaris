@@ -24,7 +24,7 @@
   position: relative;
   bottom: -30px;
   width: 25%;
-  background: #006699; }
+  background: #0888b5; }
   .brandStripe:after {
     width: 0;
     position: relative;
@@ -35,11 +35,11 @@
     content: '';
     border-right: 25px solid transparent;
     border-bottom: 51px solid transparent;
-    border-top: 51px solid #006699; }
+    border-top: 51px solid #0888b5; }
 
 body {
-  /*background: #005595 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
-  background: #005595;
+  /*background: #0e88b5 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
+  background: #0e88b5;
   width: 960px;
   margin: 0px auto; }
 
@@ -65,14 +65,14 @@ body {
 
 #contentBody h2,
 .simplemodal-wrap h2 {
-  color: #004271;
+  color: #08516d;
   margin-bottom: 6px;
   font-size: 3em;
   font-family: 'rokkittregular', serif; }
 
 #contentBody h3,
 .simplemodal-wrap h3 {
-  color: #bfd22b;
+  color: #12b1ec;
   margin: 10px 0 10px 0;
   font-size: 1.4166666666666667em;
   font-family: 'rokkittregular', serif; }
@@ -95,7 +95,7 @@ body {
   background: #97ddf7 url(../img/eds_blue-background.png) repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
-  border-bottom: 1px solid #263640; }
+  border-bottom: 1px solid black; }
 
 #banner > .bannerContent {
   height: 388px;
@@ -226,7 +226,7 @@ border-bottom: 26px solid white;
 
 #usage, #featureusage {
   background: url(../img/white-process-background.png) repeat-x center -2em;
-  height: 315px;
+  height: 320px;
   padding: 0px 0px 0px 0px;
   overflow: auto;
   border-top: 1px solid #4d4d4d; }
@@ -259,20 +259,20 @@ border-bottom: 26px solid white;
   #usage div.bubble > div#foundations, #usage div.featurebubble > div#foundations, #featureusage div.bubble > div#foundations, #featureusage div.featurebubble > div#foundations {
     background: #5c7f92 no-repeat center center; }
   #usage div.bubble > div#describe, #usage div.featurebubble > div#describe, #featureusage div.bubble > div#describe, #featureusage div.featurebubble > div#describe {
-    background: #91baa3 no-repeat center center; }
+    background: #031b24 no-repeat center center; }
   #usage div.bubble > div#discover, #usage div.featurebubble > div#discover, #featureusage div.bubble > div#discover, #featureusage div.featurebubble > div#discover {
-    background: #fecb00 no-repeat left center; }
+    background: #0d7aa3 no-repeat left center; }
   #usage div.bubble > div#predict, #usage div.featurebubble > div#predict, #featureusage div.bubble > div#predict, #featureusage div.featurebubble > div#predict {
-    background: #c7b37f no-repeat center center; }
+    background: #888a8a no-repeat center center; }
   #usage div.bubble > div#advise, #usage div.featurebubble > div#advise, #featureusage div.bubble > div#advise, #featureusage div.featurebubble > div#advise {
-    background: #fdb263 no-repeat center center; }
+    background: #12b1ec no-repeat center center; }
   #usage div.bubble > div#scale, #usage div.featurebubble > div#scale, #featureusage div.bubble > div#scale, #featureusage div.featurebubble > div#scale {
     background: #8f7fc7 no-repeat center center; }
   #usage div.bubble > p, #usage div.featurebubble > p, #featureusage div.bubble > p, #featureusage div.featurebubble > p {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    margin-top: 51px; }
+    margin-top: 20px; }
 
 #arrow {
   /*height: 33px;
@@ -289,18 +289,18 @@ border-bottom: 26px solid white;
 
 #arrow.predict, #featurearrow.predict {
   background-position: 368px top;
-  border-left-color: #91baa3; }
+  border-left-color: #031b24; }
 
 #arrow.analyze, #featurearrow.analyze {
   background-position: 578px top;
-  border-left-color: #fecb00; }
+  border-left-color: #0d7aa3; }
 
 #arrow.mitigate, #featurearrow.mitigate {
   background-position: 788px top;
-  border-left-color: #c7b37f; }
+  border-left-color: #888a8a; }
 
 #description, #featuredescription {
-  background-color: #60879f;
+  background-color: #08516d;
   color: #FFFFFF;
   padding: 10px 60px 30px 53px;
   overflow: hidden;
@@ -320,13 +320,13 @@ border-bottom: 26px solid white;
   border-left-color: #5c7f92; }
 
 #description.predict, #featuredescription.predict {
-  border-left-color: #91baa3; }
+  border-left-color: #031b24; }
 
 #description.analyze, #featuredescription.analyze {
-  border-left-color: #fecb00; }
+  border-left-color: #0d7aa3; }
 
 #description.mitigate, #featuredescription.mitigate {
-  border-left-color: #c7b37f; }
+  border-left-color: #888a8a; }
 
 #description > div.descriptionContainer > p, #featuredescription > div.descriptionContainer > p {
   margin-bottom: 17px; }
@@ -359,7 +359,7 @@ border-bottom: 26px solid white;
   width: 340px;
   color: #3A3A3A;
   font-size: 1.1666666666666667em;
-  background: url(../img/feature-checkmark.png) 0 0 no-repeat; }
+  background: url(../img/eds_feature-checkmark.png) 0 0 no-repeat; }
 
 .featuredList > div.twoColumn {
   float: left;
@@ -425,7 +425,7 @@ border-bottom: 26px solid white;
 
 #preview {
   height: 500px;
-  background-color: #bfd22b;
+  background-color: #12b1ec;
   padding: 54px 0; }
 
 #preview > h2 {
@@ -437,11 +437,11 @@ border-bottom: 26px solid white;
 
 #contactus {
   height: 640px;
-  background-color: #60879f;
+  background-color: #08516d;
   padding: 60px; }
 
 #contactus h2 {
-  color: #004271; }
+  color: #ffffff; }
 
 #contactus p {
   color: #fff; }
