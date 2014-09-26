@@ -217,7 +217,7 @@ input[type=email] {
 
 #usage, #featureusage {
   background: url(./img/white-process-background.png) repeat-x center -2em;
-  height: 305px;
+  height: 310px;
   overflow: auto;
   border-top: 1px solid #4d4d4d;
   /*div.bubble,*/ }
