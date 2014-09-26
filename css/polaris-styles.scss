@@ -16,7 +16,8 @@ $circle5-color:#12b1ec;
 $circle6-color:#8f7fc7;
 
 
- 
+
+
 @font-face {
   font-family: 'rokkittregular';
   src: url('../fonts/rokkitt-regular-webfont.eot');
@@ -64,11 +65,27 @@ $circle6-color:#8f7fc7;
 }
 
 body {
-  /*background: #0e88b5 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
-  background:#0e88b5;
+  /*background: #005595 url(../img/bah-home-page_bg3.png) repeat-x center top;*/
+  background:#005595;
   width: 960px;
   margin: 0px auto;
 }
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=color],
+input[type=email] {
+  width: 382px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding-left: 8px;
+  font-size: 1.212121212121212em;
+}
+
 #PageContainerWide {
   background: none;
 }
@@ -94,7 +111,7 @@ body {
 }
 #contentBody h2,
 .simplemodal-wrap h2 {
-  color: #08516d;
+  color: #004271;
   margin-bottom: 6px;
   font-size: 3em;
   font-family: 'rokkittregular', serif;
@@ -138,41 +155,17 @@ body {
 #banner > .bannerContent#left {
   padding: 23px 20px 8px 26px;
   background:url(#{$triangleBoxBg}) no-repeat;
-  height: 370px;
+  height: 340px;
   p{
-      line-height: 1.2em;
-      font-size: 1.4em;
+      line-height: 1.4em;
+      font-size: 1.7em;
 
   }
 
 
 }
 
-/*#banner > .bannerContent#left:before  {
-width: 0;
-position: relative;
-top: -122px;
-left: -26px;
-height: 0;
-z-index:1;
-content: '';
-border-right: 26px solid transparent;
-border-top: 26px solid transparent;
-border-bottom: 26px solid white;
-}
 
-#banner > .bannerContent#left:after{
-  width: 0;
-  position: relative;
-  top: -357px;
-  left: -396px;
-  height: 0;
-  z-index:10;
-  content: '';
-  border-right: 23px solid transparent;
-  border-top: 23px solid transparent;
-  border-bottom: 23px solid $main-theme-color;
-}*/
 
 
 
@@ -193,11 +186,13 @@ border-bottom: 26px solid white;
 #banner > .bannerContent > h2 {
   color: #FFFFFF;
   font-size: 2em;
+  margin-top:19px;
   margin-bottom: 3px;
 }
 #banner > .bannerContent > p {
   font-size: 1.8333333333333333em;
   padding: 8px 0 17px 0;
+  margin:20px 0 10px 0;
 }
 #banner > .bannerContent > #bannerButtons > a {
   float: left;
@@ -266,27 +261,27 @@ border-bottom: 26px solid white;
 }
 #usage, #featureusage {
   background: url(../img/white-process-background.png) repeat-x center -2em;
-  height:320px;
-  padding: 0px 0px 0px 0px;
+  height:305px;
+  //padding: 0px 0px 0px 0px;
   overflow: auto;
   border-top:1px solid lighten(#000000, 30%);
 
    &> h2 {
     text-align: center;
+    padding: 30px 0px 0px 0px;
   }
    &> p {
     text-align: center;
-    margin: 0 10px auto;
+    margin: 0 auto;
   }
    div.usageItems, div.featureusageitems {
     height: 150px;
   }
-   div.bubble, div.featurebubble {
-    width: 15%;
-    /*height: 100%;*/
+   /*div.bubble,*/ div.featurebubble {
+    width: 25%;
+    height: 100%;
     float: left;
     margin-top: 5px;
-	margin-left:15px;
     cursor: pointer;
     font-family: 'rokkittregular';
     font-weight:bold;
@@ -303,24 +298,24 @@ border-bottom: 26px solid white;
   div.bubble > div.bubbleimg > img, div.featurebubble > div.featurebubbleimg > img {
     margin: auto;
   }
-  div.bubble > div#foundations, div.featurebubble > div#foundations {
-    background: $circle1-color /*url(../img/icon-integrate.png)*/ no-repeat center center;
+  div.bubble > div#highlight1, div.featurebubble > div#highlight1 {
+    background: $circle1-color  no-repeat center center;
   }
-  div.bubble > div#describe, div.featurebubble > div#describe {
-    background: $circle2-color /*url(../img/icon-predict.png)*/ no-repeat center center;
+  div.bubble > div#highlight2, div.featurebubble > div#highlight2 {
+    background: $circle2-color  no-repeat center center;
   }
-  div.bubble > div#discover, div.featurebubble > div#discover {
-    background: $circle3-color /*url(../img/icon-analyze.png)*/ no-repeat left center;
+  div.bubble > div#highlight3, div.featurebubble > div#highlight3 {
+    background: $circle3-color  no-repeat left center;
   }
-  div.bubble > div#predict,  div.featurebubble > div#predict  {
-    background: $circle4-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
+  div.bubble > div#highlight4,  div.featurebubble > div#highlight4  {
+    background: $circle4-color  no-repeat center center; 
   }
-  div.bubble > div#advise,  div.featurebubble > div#advise  {
-    background: $circle5-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
-  }
-  div.bubble > div#scale,  div.featurebubble > div#scale  {
-    background: $circle6-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
-  }
+  div.bubble > div#highlight5,div.featurebubble > div#highlight5{
+    background: $circle5-color no-repeat center center; }
+
+  div.bubble > div#highlight6, div.featurebubble > div#highlight6{
+    background: $circle6-color no-repeat center center; }
+
   div.bubble > p, div.featurebubble > p {
     text-align: center;
     font-weight: bold;
@@ -331,15 +326,29 @@ border-bottom: 26px solid white;
 }
 
 
-#arrow {
-  /*height: 33px;
-  background: $main-theme-color url(../img/process-marker.png) repeat-x 0 top;
-  border-left: 9px solid #999;
-  -webkit-transition: 300ms ease-out;
-  -moz-transition: 300ms ease-out;
-  -o-transition: 300ms ease-out;
-  transition: 300ms ease-out;*/
-}
+/* Bubble items auto width - New Styles */
+  #usage div.usageItems {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+  }
+
+  #usage div.bubble {
+  height: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: 'rokkittregular';
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    border: 0px solid #ddd; 
+    display: table-cell;
+    vertical-align: top;
+  }
+/* Bubble items auto width - New Styles */
+
+
 #arrow.integrate, #featurearrow.integrate {
   background-position: 158px top;
   border-left-color: $circle1-color;
@@ -356,10 +365,19 @@ border-bottom: 26px solid white;
   background-position: 788px top;
   border-left-color: $circle4-color;
 }
+#arrow.highlight5, #featurearrow.highlight5 {
+  background-position: 788px top;
+  border-left-color: $circle5-color; }
+
+#arrow.highlight6, #featurearrow.highlight6 {
+  background-position: 788px top;
+  border-left-color: $circle6-color; }
+
 #description, #featuredescription {
   background-color: $main-theme-color;
   color:#FFFFFF;
-  padding: 10px 60px 30px 53px;
+  //padding: 10px 60px 30px 53px;
+  padding: 40px 60px 30px 53px;
   overflow: hidden;
   border-left: 9px solid #999;
   -webkit-transition: border-color 300ms ease-out;
@@ -413,15 +431,17 @@ border-bottom: 26px solid white;
 }
 .featuredList > ul {
   margin: 27px 0 0px 27px;
+  list-style: none;
 }
 .featuredList > ul > li {
   float: left;
   margin: 0 15px 15px 0;
   padding-left: 28px;
-  width: 340px;
+  //width: 340px;
+  width: 330px;
   color: #3A3A3A;
   font-size: 1.1666666666666667em;
-  background: url(../img/eds_feature-checkmark.png) 0 0 no-repeat;
+  background: url(../img/feature-checkmark.png) 0 0 no-repeat;
 }
 .featuredList > div.twoColumn {
   float: left;
@@ -434,9 +454,10 @@ border-bottom: 26px solid white;
 }
 .featuredList .sysRequirements {
   margin-top: 30px;
-  color: #888888;
+  color: #888888!important;
   font-size: 0.9em !important;
 }
+
 .featuredList .sysRequirements b {
   line-height: 1.7em;
 }
@@ -478,7 +499,7 @@ border-bottom: 26px solid white;
   text-align: center;
 }
 #resources .item .title {
-  color: #24b7ee;
+  color: $circle6-color;
   line-height: 2em;
 }
 #resources .item .caption {
@@ -497,18 +518,18 @@ border-bottom: 26px solid white;
 #preview > p {
   margin: 0 60px;
 }
-#contactus {
+#contactus, #downloadtrial {
   height: 640px;
   background-color: $main-theme-color;
   padding: 60px;
 }
-#contactus h2 {
-  color: #ffffff;
+#contactus h2, #downloadtrial h2 {
+  color: #004271;
 }
-#contactus p {
+#contactus p, #downloadtrial p {
   color: #fff;
 }
-#contactus .formColumn {
+#contactus .formColumn, #downloadtrial .formColumn {
   float: left;
   width: 410px;
 }
@@ -519,26 +540,18 @@ border-bottom: 26px solid white;
   color: #fff;
   line-height: 1.5em;
 }
-#contactus .formColumn > p.submit {
+#contactus .formColumn > p.submit, #downloadtrial .formColumn > p.submit {
   color: #555;
   text-align: right;
 }
-#contactus input[type=text] {
-  width: 382px;
-  height: 34px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  padding-left: 8px;
-  font-size: 1.212121212121212em;
-}
-#contactus span.selectWrap {
+
+
+#contactus span.selectWrap,  #downloadtrial span.selectWrap {
   position: relative;
   display: inline-block;
   overflow: hidden;
   width: 405px;
-  height: 36px;
+  height: 36px; 
   background: url(../img/select-drop-arrow.png) no-repeat right center #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -546,7 +559,7 @@ border-bottom: 26px solid white;
   -moz-border-radius: 4px;
   cursor: pointer;
 }
-#contactus span.selectWrap .selectText {
+#contactus span.selectWrap .selectText, #downloadtrial span.selectWrap .selectText  {
   width: 100%;
   height: 36px;
   position: absolute;
@@ -556,11 +569,11 @@ border-bottom: 26px solid white;
   line-height: 36px;
   color: #000;
 }
-#contactus select {
+#contactus select, #downloadtrial select {
   position: absolute;
   z-index: 2;
   width: 410px;
-  height: 36px;
+  height: 34px;
   padding: 0 0 0 8px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -572,7 +585,7 @@ border-bottom: 26px solid white;
   filter: alpha(opacity=0);
   cursor: pointer;
 }
-#contactus input[type=submit] {
+#contactus input[type=submit], #downloadtrial input[type=submit]{
   width: 130px;
   height: 30px;
   font-size: 1.1666666666666667em;
@@ -606,6 +619,9 @@ border-bottom: 26px solid white;
   line-height: 2.5em;
   color: #004271;
   text-transform: uppercase;
+  max-width:200px;
+  line-height:1em;
+  height:100%;
 }
 .image-flow .flow-item .flow-caption {
   display: none;
