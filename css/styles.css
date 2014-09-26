@@ -107,7 +107,7 @@ input[type=email] {
   cursor: pointer; }
 
 #banner {
-  background: #97ddf7 url(../img/eds_blue-background.png) repeat-x center top;
+  background: #97ddf7 url(./img/eds_blue-background.png) repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
   border-bottom: 1px solid #161717; }
@@ -120,7 +120,7 @@ input[type=email] {
 
 #banner > .bannerContent#left {
   padding: 23px 20px 8px 26px;
-  background: url(../img/eds_box-corner.png) no-repeat;
+  background: url(./img/eds_box-corner.png) no-repeat;
   height: 340px; }
   #banner > .bannerContent#left p {
     line-height: 1.4em;
@@ -130,14 +130,13 @@ input[type=email] {
   display: block;
   width: 223px;
   height: 58px;
-  background: url(../img/eds_logo_white.png) no-repeat left top;
+  background: url(./img/eds_logo_white.png) no-repeat left top;
   margin: 0 0 12px 0; }
 
 #banner > .bannerContent p {
   color: #FFFFFF; }
 
 #banner > .bannerContent#right {
-  background: url(../img/cost-risk-schedule.png) no-repeat center top;
   width: 47%; }
 
 #banner > .bannerContent > h2 {
@@ -203,7 +202,7 @@ input[type=email] {
 
 #playVideo .videoButtonBackground {
   position: absolute;
-  background: #96a0ac url(../img/eds_video-thumb.png) repeat-x center 0px;
+  background: #96a0ac url(./img/eds_video-thumb.png) repeat-x center 0px;
   height: 400px; }
 
 #playVideo .videoButton > div {
@@ -217,7 +216,7 @@ input[type=email] {
   text-align: center; }
 
 #usage, #featureusage {
-  background: url(../img/white-process-background.png) repeat-x center -2em;
+  background: url(./img/white-process-background.png) repeat-x center -2em;
   height: 305px;
   overflow: auto;
   border-top: 1px solid #4d4d4d;
@@ -371,7 +370,7 @@ input[type=email] {
   width: 330px;
   color: #3A3A3A;
   font-size: 1.1666666666666667em;
-  background: url(../img/feature-checkmark.png) 0 0 no-repeat; }
+  background: url(./img/feature-checkmark.png) 0 0 no-repeat; }
 
 .featuredList > div.twoColumn {
   float: left;
@@ -477,7 +476,7 @@ input[type=email] {
   overflow: hidden;
   width: 405px;
   height: 36px;
-  background: url(../img/select-drop-arrow.png) no-repeat right center #ffffff;
+  background: url(./img/select-drop-arrow.png) no-repeat right center #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -563,7 +562,7 @@ input[type=email] {
   height: 40px;
   cursor: pointer;
   opacity: 0.2;
-  background: url(../img/arrow-right.png) no-repeat center center; }
+  background: url(./img/arrow-right.png) no-repeat center center; }
 
 .flow-navigation .next:hover,
 .description-navigation .next:hover, .featuredescription-navigation .next:hover {
@@ -576,7 +575,7 @@ input[type=email] {
   height: 40px;
   cursor: pointer;
   opacity: 0.2;
-  background: url(../img/arrow-left.png) no-repeat center center; }
+  background: url(./img/arrow-left.png) no-repeat center center; }
 
 .flow-navigation .previous:hover,
 .description-navigation .previous:hover, .featuredescription-navigation .previous:hover {
@@ -600,4 +599,4 @@ input[type=email] {
 #ColumnsContainer #Header {
   top: -82px; }
 
-/*# sourceMappingURL=polaris-styles.css.map */
+/*# sourceMappingURL=styles.css.map */
