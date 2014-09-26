@@ -43,6 +43,21 @@ body {
   width: 960px;
   margin: 0px auto; }
 
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=color],
+input[type=email] {
+  width: 382px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding-left: 8px;
+  font-size: 1.212121212121212em; }
+
 #PageContainerWide {
   background: none; }
 
@@ -489,16 +504,6 @@ border-bottom: 26px solid white;
 #contactus .formColumn > p.submit, #downloadtrial .formColumn > p.submit {
   color: #555;
   text-align: right; }
-
-#contactus input[type=text], #contactus input[type=email] #downloadtrial input[type=text], #downloadtrial input[type=text] {
-  width: 382px;
-  height: 34px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  padding-left: 8px;
-  font-size: 1.212121212121212em; }
 
 #contactus span.selectWrap, #downloadtrial span.selectWrap {
   position: relative;
