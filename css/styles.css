@@ -107,7 +107,7 @@ input[type=email] {
   cursor: pointer; }
 
 #banner {
-  background: #97ddf7 url(../img/blue-background.png) repeat-x center top;
+  background: #97ddf7 url("http://placehold.it/960x342/60879f&text=bannerBg") repeat-x center top;
   height: 432px;
   padding: 36px 38px 36px 55px;
   border-bottom: 1px solid #263640; }
@@ -120,7 +120,7 @@ input[type=email] {
 
 #banner > .bannerContent#left {
   padding: 23px 20px 8px 26px;
-  background: url(../img/box-corner.png) no-repeat;
+  background: url("http://placehold.it/458x356/006699&text=triangleBoxBg") no-repeat;
   height: 340px; }
   #banner > .bannerContent#left p {
     line-height: 1.4em;
@@ -155,14 +155,14 @@ border-bottom: 26px solid white;
   display: block;
   width: 223px;
   height: 58px;
-  background: url(../img/polaris-logo-white.png) no-repeat left top;
+  background: url("http://placehold.it/223x58/c7b37f&text=logo") no-repeat left top;
   margin: 0 0 12px 0; }
 
 #banner > .bannerContent p {
   color: #FFFFFF; }
 
 #banner > .bannerContent#right {
-  background: url(../img/cost-risk-schedule.png) no-repeat center top;
+  background: url("http://placehold.it/458x356/bfd22b&text=rightGraphic") no-repeat center top;
   width: 47%; }
 
 #banner > .bannerContent > h2 {
@@ -228,7 +228,7 @@ border-bottom: 26px solid white;
 
 #playVideo .videoButtonBackground {
   position: absolute;
-  background: #96a0ac url(../img/video-thumb.png) repeat-x center 0px;
+  background: #96a0ac url("http://placehold.it/961x540/fecb00&text=videoImage") repeat-x center 0px;
   height: 400px; }
 
 #playVideo .videoButton > div {
@@ -634,4 +634,4 @@ border-bottom: 26px solid white;
 #ColumnsContainer #Header {
   top: -82px; }
 
-/*# sourceMappingURL=polaris-styles.css.map */
+/*# sourceMappingURL=styles.css.map */
