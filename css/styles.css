@@ -273,13 +273,13 @@ border-bottom: 26px solid white;
     margin: 15px auto; }
   #usage div.bubble > div.bubbleimg > img, #usage div.featurebubble > div.featurebubbleimg > img, #featureusage div.bubble > div.bubbleimg > img, #featureusage div.featurebubble > div.featurebubbleimg > img {
     margin: auto; }
-  #usage div.bubble > div#integrate, #usage div.featurebubble > div#integrate, #featureusage div.bubble > div#integrate, #featureusage div.featurebubble > div#integrate {
+  #usage div.bubble > div#highlight1, #usage div.featurebubble > div#highlight1, #featureusage div.bubble > div#highlight1, #featureusage div.featurebubble > div#highlight1 {
     background: #5c7f92 no-repeat center center; }
-  #usage div.bubble > div#predict, #usage div.featurebubble > div#predict, #featureusage div.bubble > div#predict, #featureusage div.featurebubble > div#predict {
+  #usage div.bubble > div#highlight2, #usage div.featurebubble > div#highlight2, #featureusage div.bubble > div#highlight2, #featureusage div.featurebubble > div#highlight2 {
     background: #91baa3 no-repeat center center; }
-  #usage div.bubble > div#analyze, #usage div.featurebubble > div#analyze, #featureusage div.bubble > div#analyze, #featureusage div.featurebubble > div#analyze {
+  #usage div.bubble > div#highlight3, #usage div.featurebubble > div#highlight3, #featureusage div.bubble > div#highlight3, #featureusage div.featurebubble > div#highlight3 {
     background: #fecb00 no-repeat left center; }
-  #usage div.bubble > div#mitigate, #usage div.featurebubble > div#mitigate, #featureusage div.bubble > div#mitigate, #featureusage div.featurebubble > div#mitigate {
+  #usage div.bubble > div#highlight4, #usage div.featurebubble > div#highlight4, #featureusage div.bubble > div#highlight4, #featureusage div.featurebubble > div#highlight4 {
     background: #c7b37f no-repeat center center; }
   #usage div.bubble > div#highlight5, #usage div.featurebubble > div#highlight5, #featureusage div.bubble > div#highlight5, #featureusage div.featurebubble > div#highlight5 {
     background: #bfd22b no-repeat center center; }

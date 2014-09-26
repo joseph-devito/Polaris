@@ -322,16 +322,16 @@ border-bottom: 26px solid white;
   div.bubble > div.bubbleimg > img, div.featurebubble > div.featurebubbleimg > img {
     margin: auto;
   }
-  div.bubble > div#integrate, div.featurebubble > div#integrate {
+  div.bubble > div#highlight1, div.featurebubble > div#highlight1 {
     background: $circle1-color /*url(../img/icon-integrate.png)*/ no-repeat center center;
   }
-  div.bubble > div#predict, div.featurebubble > div#predict {
+  div.bubble > div#highlight2, div.featurebubble > div#highlight2 {
     background: $circle2-color /*url(../img/icon-predict.png)*/ no-repeat center center;
   }
-  div.bubble > div#analyze, div.featurebubble > div#analyze {
+  div.bubble > div#highlight3, div.featurebubble > div#highlight3 {
     background: $circle3-color /*url(../img/icon-analyze.png)*/ no-repeat left center;
   }
-  div.bubble > div#mitigate,  div.featurebubble > div#mitigate  {
+  div.bubble > div#highlight4,  div.featurebubble > div#highlight4  {
     background: $circle4-color /*url(../img/icon-mitigate.png)*/ no-repeat center center; 
   }
   div.bubble > div#highlight5,div.featurebubble > div#highlight5{
