@@ -474,7 +474,7 @@ border-bottom: 26px solid white;
 #contactus h2, #downloadtrial h2 {
   color: #004271; }
 
-#contactus p {
+#contactus p, #downloadtrial p {
   color: #fff; }
 
 #contactus .formColumn, #downloadtrial .formColumn {
@@ -490,7 +490,7 @@ border-bottom: 26px solid white;
   color: #555;
   text-align: right; }
 
-#contactus input[type=text] {
+#contactus input[type=text], #contactus input[type=email] #downloadtrial input[type=text], #downloadtrial input[type=text] {
   width: 382px;
   height: 34px;
   border: 1px solid #ccc;
