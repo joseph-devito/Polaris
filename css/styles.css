@@ -43,12 +43,18 @@ body {
   width: 960px;
   margin: 0px auto; }
 
-input[type=text],
-input[type=url],
-input[type=tel],
-input[type=number],
-input[type=color],
-input[type=email] {
+#contentBody input[type=text],
+#contentBody input[type=url],
+#contentBody input[type=tel],
+#contentBody input[type=number],
+#contentBody input[type=color],
+#contentBody input[type=email],
+#simplemodal-container input[type=text],
+#simplemodal-container input[type=url],
+#simplemodal-container input[type=tel],
+#simplemodal-container input[type=number],
+#simplemodal-container input[type=color],
+#simplemodal-container input[type=email] {
   width: 382px;
   height: 34px;
   border: 1px solid #ccc;
